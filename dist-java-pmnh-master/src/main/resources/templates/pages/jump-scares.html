@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jump Scares</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>Jump Scares</h2>
+<img class="left" th:src="@{/img/jumpscare.jpg}" alt="jumpscare command">
+<p>
+    There are many ways to implement jump scares in MineCraft using command blocks.
+</p>
+<p>
+    One way to implement a jump scare with a command blocks is to have the blocks automatically play
+    a specific sound you want whenever something specific happens.
+</p>
+    A example of this would be having the sound of a creeper about to explode play, whenever a player mines diamond ore.
+    This would cause the player to jump, thinking they are about to loose all the new found diamonds to the sound being played automatically.
+
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

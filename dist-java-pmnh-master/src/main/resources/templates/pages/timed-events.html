@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Timed Events</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>Creating Timed Events</h2>
+<img class="left" th:src="@{/img/timedEvent.jpg}" alt="A timed event command example">
+<p>
+    There are many kinds of timed event you can make using commands in MineCraft. These can range from special mobs spawning at certain times, to random items falling from the sky.
+    Timed events can be used to either benefit the players in the world, or punish them if they dont complete a task within the time limit.
+    Some examples of timed events are
+<ol>
+    <li>Effects being given to players</li>
+</ol>
+<ol>
+    <li>Special items falling from sky</li>
+</ol>
+<ol>
+    <li>Preset announcements appearing in chat</li>
+</ol>
+
+</p>
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

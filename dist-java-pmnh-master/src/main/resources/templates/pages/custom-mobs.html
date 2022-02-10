@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Bosses</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<div th:insert="fragments/_header :: header"></div>
+
+<h2>Custom Mobs or Bosses</h2>
+
+<p>
+    There are plenty of different attributes that are changeable for every mob in MineCraft.
+    Using built in commands, you can create some unique mobs.
+    Modifying certain attributes like health,damage or speed allow you to create some insane boss type mobs.
+    You can allow setup other commands like effects or other mob spawns to run at any time intervals of your choosing while the boss is spawned in and alive.
+</p>
+<img class="boss" th:src="@{/img/customMob.jpg}" alt="A custom mob spawned with commands">
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
